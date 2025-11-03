@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #f0f2f5;
+  background: #8cb8c2;
   margin: 0;
   padding: 20px;
   text-align: center;
@@ -21,7 +21,7 @@ body {
 }
 
 .card {
-  background: white;
+  background:rgb(78, 68, 222);;
   border-radius: 10px;
   padding: 20px;
   width: 250px;
@@ -32,6 +32,8 @@ body {
 
 .card:hover {
   transform: scale(1.05);
+  color: aliceblue;
+  background-color: rgb(24, 69, 101);
 }
 
 .btn {
@@ -46,7 +48,7 @@ body {
 }
 
 .btn:hover {
-  background: #2980b9;
+ background: #5b1c9d;
 }
 
 .animate-btn {
@@ -54,7 +56,7 @@ body {
 }
 
 .bio-container, .resume-container {
-  background: white;
+  background: rgb(219, 196, 196);
   margin: auto;
   padding: 40px;
   max-width: 600px;
@@ -83,3 +85,4 @@ body {
   50% { transform: scale(1.05); }
   100% { transform: scale(1); }
 }
+
